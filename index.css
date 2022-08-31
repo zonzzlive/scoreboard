@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "scoreBoard";
+    src: url("scoreboard.ttf")
+}
+
+body {
+    margin: 0;
+    background: #203075;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: auto;
+}
+
+.container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreSlot{
+    display: flex;
+    background: #0A0F25;
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-score{
+    margin-top: 10px;
+}
+
+.btnScore{
+    background-color: #203075;
+    border: 2px solid #8191D5;
+    height: 35px;
+    border-radius: 10px;
+    color: #8191D5;
+    margin: 0 2px 0 2px;
+    font-family: scoreBoard;
+    font-weight: bolder;
+}
+
+#score-home, #score-guest{
+    color: red;
+    font-family: scoreBoard;
+    font-size: 50px;
+}
